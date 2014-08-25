@@ -11,4 +11,6 @@
 **默认:** `reuse_port off`
 
 **上下文:** `events` 
+
+开启或者关闭SO_REUSEPORT套接字参数的支持.
      
