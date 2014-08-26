@@ -12,6 +12,6 @@
 
 **上下文:** `events` 
 
-当打开reuse_port的时候，支持SO_REUSEPORT套接字参数，Linux从3.9开始支持该特性。   
-使用该特性，cpu更加均衡，新建连接的能力增强，但是负作用是reload和upgrade会有少量的失效。
+当打开reuse_port的时候，支持SO_REUSEPORT套接字参数，Linux从3.9开始支持。    
+使用该指令，cpu更加均衡，新建连接的能力加强，但是负作用是reload和upgrade会有少量的失败。
      
